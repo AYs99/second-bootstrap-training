@@ -1,0 +1,33 @@
+.col1{
+    border-radius: 3% 0% 0% 3% ;
+}
+
+.col2{
+    border-radius: 0% 3% 3% 0%;
+}
+
+.col2 img{
+    border-radius: 0% 3% 3% 0%;
+}
+
+@media  (max-width: 990px) {
+    p{
+        text-align: center;
+    }
+
+    .content{
+        flex-direction: column-reverse;
+    }
+
+    .col1{
+        border-radius: 0% 0% 3% 3%;
+    }
+
+    .col2{
+        border-radius: 3% 3% 0% 0%; 
+    }
+
+    .col2 img{
+        border-radius: 3% 3% 0% 0%; 
+    }
+}
